@@ -14,7 +14,7 @@ class TestCircumference(unittest.TestCase):  # defining a series of tests
         """
         ans = circle.circumference(1)   # calculate the answer given by the
         # user-defined function
-        self.assertEqual(ans, 6.283)    # compare with the correct answer
+        self.assertEqual(ans, 3.141592653589793)
 
     def test_circumference_dp(self):  # defining the second test in this series
         """
@@ -23,5 +23,5 @@ class TestCircumference(unittest.TestCase):  # defining a series of tests
         """
         ans = circle.circumference(2.7, 10)     # calculate the answer given
         #  by the user-defined function
-        self.assertEqual(ans, 16.9646003294)    # compare with the correct
+        self.assertEqual(ans, 3.141592653589793)    # compare with the correct
         # answer
